@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5ADAA777-12EC-4CAA-A711-E40215E6896F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Frogger</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Margarida\Dropbox\CG\glut\include;C:\Users\Miguel\Dropbox\CG\glut\include;C:\Users\David\Dropbox\CG\glut\include;C:\Users\Miguel\Desktop\Documents\Visual Studio 2013\soil\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Margarida\Dropbox\CG\glut\lib;C:\Users\Miguel\Dropbox\CG\glut\lib;C:\Users\David\Dropbox\CG\glut\lib;C:\Users\Miguel\Desktop\Documents\Visual Studio 2013\soil\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bus.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="CenterLamp.cpp" />
+    <ClCompile Include="DownLamp.cpp" />
+    <ClCompile Include="DynamicObject.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Frog.cpp" />
+    <ClCompile Include="FrogFigure.cpp" />
+    <ClCompile Include="gameManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GlobalLight.cpp" />
+    <ClCompile Include="Headlight.cpp" />
+    <ClCompile Include="LampPost.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="MobileCam.cpp" />
+    <ClCompile Include="OrthoCam.cpp" />
+    <ClCompile Include="PerspectiveCam.cpp" />
+    <ClCompile Include="River.cpp" />
+    <ClCompile Include="Riverside.cpp" />
+    <ClCompile Include="Road.cpp" />
+    <ClCompile Include="Roadside.cpp" />
+    <ClCompile Include="soil\src\image_DXT.c" />
+    <ClCompile Include="soil\src\image_helper.c" />
+    <ClCompile Include="soil\src\SOIL.c" />
+    <ClCompile Include="soil\src\stb_image_aug.c" />
+    <ClCompile Include="Spotlight.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Timberlog.cpp" />
+    <ClCompile Include="Turtle.cpp" />
+    <ClCompile Include="UpLamp.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bus.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="CenterLamp.h" />
+    <ClInclude Include="DownLamp.h" />
+    <ClInclude Include="DynamicObject.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Frog.h" />
+    <ClInclude Include="FrogFigure.h" />
+    <ClInclude Include="gameManager.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GlobalLight.h" />
+    <ClInclude Include="Headlight.h" />
+    <ClInclude Include="LampPost.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="MobileCam.h" />
+    <ClInclude Include="OrthoCam.h" />
+    <ClInclude Include="PerspectiveCam.h" />
+    <ClInclude Include="River.h" />
+    <ClInclude Include="Riverside.h" />
+    <ClInclude Include="Road.h" />
+    <ClInclude Include="Roadside.h" />
+    <ClInclude Include="soil\src\SOIL.h" />
+    <ClInclude Include="Spotlight.h" />
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Timberlog.h" />
+    <ClInclude Include="Turtle.h" />
+    <ClInclude Include="UpLamp.h" />
+    <ClInclude Include="Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\glut32.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

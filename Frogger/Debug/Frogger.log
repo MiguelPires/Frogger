@@ -1,0 +1,45 @@
+﻿Build started 27-Nov-14 2:29:46 PM.
+     1>Project "C:\Users\Miguel\Dropbox\CG\Frogger\Frogger.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Margarida\Dropbox\CG\glut\include /IC:\Users\Miguel\Dropbox\CG\glut\include /IC:\Users\David\Dropbox\CG\glut\include /I"C:\Users\Miguel\Desktop\Documents\Visual Studio 2013\soil\src" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PerspectiveCam.cpp
+         PerspectiveCam.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Miguel\Dropbox\CG\Frogger\Debug\Frogger.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Margarida\Dropbox\CG\glut\lib /LIBPATH:C:\Users\Miguel\Dropbox\CG\glut\lib /LIBPATH:C:\Users\David\Dropbox\CG\glut\lib /LIBPATH:"C:\Users\Miguel\Desktop\Documents\Visual Studio 2013\soil\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Miguel\Dropbox\CG\Frogger\Debug\Frogger.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Miguel\Dropbox\CG\Frogger\Debug\Frogger.lib" /MACHINE:X86 Debug\Bus.obj
+         Debug\Camera.obj
+         Debug\Car.obj
+         Debug\CenterLamp.obj
+         Debug\DownLamp.obj
+         Debug\DynamicObject.obj
+         Debug\Entity.obj
+         Debug\Frog.obj
+         Debug\FrogFigure.obj
+         Debug\gameManager.obj
+         Debug\GameObject.obj
+         Debug\GlobalLight.obj
+         Debug\Headlight.obj
+         Debug\LampPost.obj
+         Debug\Light.obj
+         Debug\MobileCam.obj
+         Debug\OrthoCam.obj
+         Debug\PerspectiveCam.obj
+         Debug\River.obj
+         Debug\Riverside.obj
+         Debug\Road.obj
+         Debug\Roadside.obj
+         Debug\image_DXT.obj
+         Debug\image_helper.obj
+         Debug\SOIL.obj
+         Debug\stb_image_aug.obj
+         Debug\Spotlight.obj
+         Debug\StaticObject.obj
+         Debug\Text.obj
+         Debug\Timberlog.obj
+         Debug\Turtle.obj
+         Debug\UpLamp.obj
+         Debug\Vector3.obj
+         Frogger.vcxproj -> C:\Users\Miguel\Dropbox\CG\Frogger\Debug\Frogger.exe
+     1>Done Building Project "C:\Users\Miguel\Dropbox\CG\Frogger\Frogger.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82
