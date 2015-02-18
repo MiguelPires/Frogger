@@ -181,3 +181,10 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Dropbox
+.dropbox.attr
+.dropbox.attr
+
+# Windows
+desktop.ini
