@@ -183,7 +183,7 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 # Dropbox
-.dropbox.attr
+.dropbox
 .dropbox.attr
 
 # Windows
